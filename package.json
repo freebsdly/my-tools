@@ -41,6 +41,8 @@
     "@remix-run/express": "^2.15.3",
     "@remix-run/node": "^2.15.3",
     "@remix-run/react": "^2.15.3",
+    "@xterm/addon-fit": "^0.10.0",
+    "@xterm/xterm": "^5.5.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "1.0.0",

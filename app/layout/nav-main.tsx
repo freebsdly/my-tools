@@ -1,4 +1,4 @@
-import { ChevronRight } from "lucide-react";
+import { ChartArea, ChevronRight } from "lucide-react";
 import {
   Collapsible,
   CollapsibleContent,
@@ -34,6 +34,14 @@ export type NavMainProps = {
 export function NavMain({ items }: NavMainProps) {
   return (
     <SidebarGroup>
+      <SidebarMenuItem>
+        <SidebarMenuButton tooltip={"Dashboard"}>
+          <ChartArea />
+          <a href="/">
+            <span>Dashboard</span>
+          </a>
+        </SidebarMenuButton>
+      </SidebarMenuItem>
       <SidebarGroupLabel>Platform</SidebarGroupLabel>
       <SidebarMenu>
         {items.map((item) => (

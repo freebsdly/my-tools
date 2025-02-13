@@ -1,8 +1,8 @@
 import * as React from "react";
-import { NavMain, NavMainItem } from "~/components/nav-main";
-import { NavProjects, NavProjectsItem } from "~/components/nav-projects";
-import { NavUser, NavUserItem } from "~/components/nav-user";
-import { TeamData, TeamSwitcher } from "~/components/team-switcher";
+import { NavMain, NavMainItem } from "~/layout/nav-main";
+import { NavProjects, NavProjectsItem } from "~/layout/nav-projects";
+import { NavUser, NavUserItem } from "~/layout/nav-user";
+import { TeamData, TeamSwitcher } from "~/layout/team-switcher";
 import {
   Sidebar,
   SidebarContent,
